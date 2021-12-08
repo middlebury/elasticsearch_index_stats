@@ -26,7 +26,7 @@ Tool for extracting information about ElasticSearch indices, such as storage-siz
 The `./bin/eis` command is the entry point for this package.
 
 Subcommands:
-- `es:index-sizes` - Show storage sizes of indexes.
+- `es:index-sizes` - Show storage sizes of indexes. This utilizes ElasticSearch's [Index Stats API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-stats.html).
 
 ## Export sizes of indexes that are per-month:
 ```
