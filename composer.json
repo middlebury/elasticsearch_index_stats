@@ -1,0 +1,20 @@
+{
+    "name": "middlebury/elasticsearch_index_stats",
+    "description": "Scripts to evaluate elasticsearch usage.",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Adam Franco",
+            "email": "afranco@middlebury.edu"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+          "": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^5.4",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
